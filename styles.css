@@ -19,7 +19,7 @@ body{
 }
 
 .navbar-brand img{
-    height: 40px;
+    height: 90px;
     padding-left: 40px;
 }
 
@@ -28,14 +28,14 @@ body{
 }
 
 .navbar-nav li a{
-    color: #000 !important;
+    color: #fff !important;
     font-weight: 600;
     float: right;
     text-align: left;
 }
 
 .fa-bars{
-    color: #000;
+    color: #fff;
     font-size: 30px !important;
 }
 
@@ -46,7 +46,7 @@ body{
 /** BANNER SECTION **/
 #banner{
     background-image: linear-gradient(to right, #BF3636,#734949);
-    color: #000;
+    color: #fff;
     padding-top: 5%;
 
 }
@@ -57,13 +57,13 @@ body{
     margin-top: 100px;
 }
 
-.play-btn{
-    width: 60px;
+.order-btn{
+    width: 300px;
     margin: 20px;
 }
 
 #banner a{
-    color: #000;
+    color: #fff;
     text-decoration: none;
 }
 
@@ -111,5 +111,34 @@ body{
     margin-bottom: 40px;
     display: block;
     transform: translateY(8px);
+}
+
+#services .btn-primary{
+    box-shadow: none;
+    padding: 8 px 25px;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #BF3636,#734949);
+}
+
+/**ABOUT US SECTION*/
+#about-us{
+    padding: 80px 0;
+    background: #734949;
+    color:#fff;
+}
+.about-us-img{
+    width: 100px;
+    margin-top: 20px ;
+}
+
+.about-us{
+    padding: 80px;
+}
+
+.about-us h4{
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
 }
 

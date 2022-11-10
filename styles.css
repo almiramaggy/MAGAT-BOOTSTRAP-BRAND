@@ -1,6 +1,12 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'GenshinFont', sans-serif;
+}
+
+@font-face {
+    font-family: 'GenshinFont';
+    src: url(genshinfont.ttf);
 }
 
 body{
@@ -14,7 +20,7 @@ body{
 }
 
 .navbar{
-    background-image: linear-gradient(to right,#BF3636,#734949);
+    background: #734949;
     padding: 0;
 }
 
@@ -52,9 +58,12 @@ body{
 }
 
 .promo-title{
-    font-size: 40px;
+    font-size: 60px;
     font-weight: 600;
     margin-top: 100px;
+}
+.promo-title:hover{
+    color: #000;
 }
 
 .order-btn{
@@ -63,7 +72,7 @@ body{
 }
 
 #banner a{
-    color: #fff;
+    color: #000;
     text-decoration: none;
 }
 
@@ -74,6 +83,7 @@ body{
 /**SERVICES SECTION**/
 #services{
     padding: 80px 0;
+    
 }
 .service-img{
     width: 100px;
@@ -82,12 +92,24 @@ body{
 
 .services{
     padding: 20px;
+    background: #734949;
+    border-radius: 25%;
 }
+
 
 .services h4{
     padding: 5px;
     margin-top: 25px;
     text-transform: uppercase;
+    color: #fff;
+}
+
+.services h4:hover{
+    color: #BF7154;
+}
+
+.services p{
+    color: #fff;
 }
 
 .title::before{
@@ -112,7 +134,34 @@ body{
     display: block;
     transform: translateY(8px);
 }
+.title:hover{
+    color: #000;
+}
+.title2::before{
+    content: '';
+    background: #BF3636;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
 
+.title2::after{
+    content: '';
+    background: #BF3636;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(8px);
+}
+.title2:hover{
+    color: #BF3636;
+}
 #services .btn-primary{
     box-shadow: none;
     padding: 8 px 25px;
@@ -124,7 +173,7 @@ body{
 /**ABOUT US SECTION*/
 #about-us{
     padding: 80px 0;
-    background: #734949;
+    background-image: linear-gradient(to right, #BF3636,#734949);
     color:#fff;
 }
 .about-us-img{
@@ -141,4 +190,7 @@ body{
     margin-top: 25px;
     text-transform: uppercase;
 }
+
+
+
 
